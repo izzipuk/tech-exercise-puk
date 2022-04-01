@@ -133,6 +133,7 @@ public class CalculateGradePuk extends HttpServlet {
         if (point1.equals(invalid))
         {
         	response.getWriter().append("Invalid grade entry. Please re-enter grades");
+        	response.getWriter().append("<a href=/webproject-te-puk/index.html>GPA Claculator</a> <br>");
         	result = -1;
         }
         else
